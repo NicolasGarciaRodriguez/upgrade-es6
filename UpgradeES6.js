@@ -71,3 +71,37 @@
 // console.log(año1)
 // console.log(año2)
 // console.log(año3)
+
+
+// 3. Spread operator
+
+// --------------------------3.1------------------------
+
+// const pointsList = [32, 54, 21, 64, 75, 43]
+// const pointsListSpread = [...pointsList]
+// console.log(pointsListSpread)
+
+// --------------------------3.2------------------------
+
+// const toy = { name: 'Bus laiyiar', date: '20-30-1995', color: 'multicolor' };
+// const toySpread = {...toy }
+// console.log(toySpread)
+
+// --------------------------3.3------------------------
+
+// const pointsList = [32, 54, 21, 64, 75, 43];
+// const pointsLis2 = [54, 87, 99, 65, 32];
+// const pointListSpread = [...pointsList, ...pointsLis2]
+// console.log(pointListSpread)
+
+// --------------------------3.4------------------------
+
+// const toy = { name: 'Bus laiyiar', date: '20-30-1995', color: 'multicolor' };
+// const toyUpdate = { lights: 'rgb', power: ['Volar like a dragon', 'MoonWalk'] }
+// const toySpread = {...toy, ...toyUpdate }
+// console.log(toySpread)
+
+// --------------------------3.5------------------------
+
+
+// 4. Map
