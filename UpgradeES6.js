@@ -105,3 +105,58 @@
 
 
 // 4. Map
+
+// --------------------------4.1------------------------
+
+// const users = [
+//     { id: 1, name: 'Abel' },
+//     { id: 2, name: 'Julia' },
+//     { id: 3, name: 'Pedro' },
+//     { id: 4, name: 'Amanda' }
+// ];
+
+// const usersName = users.map(person => {
+//     console.log(person.name)
+// })
+// console.log(usersName)
+
+// --------------------------4.2------------------------
+
+// const users = [
+//     { id: 1, name: 'Abel' },
+//     { id: 2, name: 'Julia' },
+//     { id: 3, name: 'Pedro' },
+//     { id: 4, name: 'Amanda' }
+// ];
+
+// function crearLista(obj) {
+//     obj.map(elem => {
+//         if (elem.name.startsWith("A")) {
+//             elem.name = "Anacleto"
+//         }
+//         console.log(elem.name)
+//     })
+// }
+
+// crearLista(users)
+
+
+// --------------------------4.3------------------------
+
+// const cities = [
+//     { isVisited: true, name: 'Tokyo' },
+//     { isVisited: false, name: 'Madagascar' },
+//     { isVisited: true, name: 'Amsterdam' },
+//     { isVisited: false, name: 'Seul' }
+// ];
+
+// function crearLista(obj) {
+//     obj.map(elem => {
+//         if (elem.isVisited === true) {
+//             elem.name = `${elem.name} Visited`
+//         }
+//         console.log(elem.name)
+//     })
+// }
+
+// crearLista(cities)
