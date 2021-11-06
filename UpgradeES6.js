@@ -160,3 +160,98 @@
 // }
 
 // crearLista(cities)
+
+
+// 5. Filter
+
+// --------------------------5.1------------------------
+
+// const ages = [22, 14, 24, 55, 65, 21, 12, 13, 90];
+// const masDe18 = ages.filter(function(num) {
+//     return num >= 18;
+// })
+// console.log(masDe18)
+
+// --------------------------5.2------------------------
+
+// const ages = [22, 14, 24, 55, 65, 21, 12, 13, 90];
+// const agesPares = ages.filter(function(num) {
+//     return num % 2 === 0;
+// })
+// console.log(agesPares)
+
+// --------------------------5.3------------------------
+
+// const streamers = [
+//     { name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft' },
+//     { name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends' },
+//     { name: 'Reven', age: 43, gameMorePlayed: 'League of Legends' },
+//     { name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us' }
+// ];
+
+// const streamersLOL = streamers.filter(function(streamer) {
+//     return streamer.gameMorePlayed === "League of Legends"
+// })
+// console.log(streamersLOL)
+
+// --------------------------5.4------------------------
+
+// const streamers = [
+//     { name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft' },
+//     { name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends' },
+//     { name: 'Reven', age: 43, gameMorePlayed: 'League of Legends' },
+//     { name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us' }
+// ];
+
+// const newStreamers = streamers.filter(function(streamer) {
+//     return streamer.name.includes("u")
+// })
+// console.log(newStreamers)
+
+// --------------------------5.5------------------------
+
+// const streamers = [
+//     { name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft' },
+//     { name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends' },
+//     { name: 'Reven', age: 43, gameMorePlayed: 'League of Legends' },
+//     { name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us' }
+// ];
+
+// const streamersLOL = []
+
+// const haciendoFilter = streamers.filter(function(streamer) {
+//     if (streamer.gameMorePlayed.includes("Legends")) {
+//         streamersLOL.push(streamer)
+//         if (streamer.age > 35) {
+//             return streamer.gameMorePlayed.toUpperCase
+//         }
+//     }
+// })
+
+// console.log(streamersLOL)
+// console.log(haciendoFilter)
+
+
+// --------------------------5.6 y 5.7------------------------
+
+// const streamers = [
+//     { name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft' },
+//     { name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends' },
+//     { name: 'Reven', age: 43, gameMorePlayed: 'League of Legends' },
+//     { name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us' }
+// ];
+
+// const searchButton = document.createElement("button")
+// const searchButtonText = document.createTextNode("Search")
+// document.body.appendChild(searchButton)
+// searchButton.appendChild(searchButtonText)
+
+// const input = document.querySelector("input")
+
+// searchButton.onclick = function toFilterStreamers() {
+//     const streamersFilter = streamers.filter(function(streamer) {
+//         if (streamer.name.includes(input.value)) {
+//             console.log(streamer.name)
+//         }
+//     })
+// }
